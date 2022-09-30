@@ -17616,3 +17616,281 @@ No template found for Api::PokemonController#show, rendering head :no_content
 Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 63)
 
 
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:19:20 -0400
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-09-30 16:19:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 494)
+
+
+Started GET "/api/pokemon/1" for 127.0.0.1 at 2022-09-30 16:19:23 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"1"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.4ms | Allocations: 121)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 817)
+
+
+Started GET "/pokemon/undefined" for 127.0.0.1 at 2022-09-30 16:19:23 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/pokemon/undefined"):
+  
+Started GET "/api/pokemon/undefined" for 127.0.0.1 at 2022-09-30 16:19:24 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"undefined"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.2ms | Allocations: 20)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 215)
+
+
+Started GET "/api/pokemon/1" for 127.0.0.1 at 2022-09-30 16:19:25 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"1"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.1ms | Allocations: 20)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 207)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-30 16:19:37 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/cb299792458/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/cb299792458/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 283)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 1068)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:19:47 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 140)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 357)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:36 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 112)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:37 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 108)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:38 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 108)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:38 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 108)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:39 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 107)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:39 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 107)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:39 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 107)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:40 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 107)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:40 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 107)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:21:40 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 107)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:22:39 -0400
+Processing by Api::PokemonController#index as JSON
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2550)
+
+
+
+NameError - undefined local variable or method `json' for #<Api::PokemonController:0x00000000005d70>
+        render json: 
+               ^^^^^
+Did you mean?  JSON:
+  app/controllers/api/pokemon_controller.rb:3:in `index'
+
+Started POST "/__better_errors/6a47eb8c1d437190/variables" for 127.0.0.1 at 2022-09-30 16:22:40 -0400
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-09-30 16:22:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:24:02 -0400
+
+SyntaxError - syntax error, unexpected instance variable, expecting `end'
+...nder json: json.array! @pokemon, :id, :number, :name, :image...
+...                       ^~~~~~~~
+/home/cb299792458/W11D5/pokedex-rails-backend/app/controllers/api/pokemon_controller.rb:4: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+...son: json.array! @pokemon, :id, :number, :name, :image_url, ...
+...                              ^:
+  app/controllers/api/pokemon_controller.rb:4:in `'
+
+Started POST "/__better_errors/35b23245722f92bc/variables" for 127.0.0.1 at 2022-09-30 16:24:02 -0400
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-09-30 16:24:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:24:03 -0400
+
+SyntaxError - syntax error, unexpected instance variable, expecting `end'
+...nder json: json.array! @pokemon, :id, :number, :name, :image...
+...                       ^~~~~~~~
+/home/cb299792458/W11D5/pokedex-rails-backend/app/controllers/api/pokemon_controller.rb:4: syntax error, unexpected ',', expecting '.' or &. or :: or '['
+...son: json.array! @pokemon, :id, :number, :name, :image_url, ...
+...                              ^:
+  app/controllers/api/pokemon_controller.rb:4:in `'
+
+Started POST "/__better_errors/dcf74f2bb411989d/variables" for 127.0.0.1 at 2022-09-30 16:24:03 -0400
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-09-30 16:24:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:25:00 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (1.5ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:14
+  Rendered api/pokemon/index.json.jbuilder (Duration: 20.9ms | Allocations: 14492)
+Completed 200 OK in 75ms (Views: 17.2ms | ActiveRecord: 5.4ms | Allocations: 18185)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:25:29 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (0.9ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (Duration: 21.3ms | Allocations: 8223)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.9ms | Allocations: 8832)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2022-09-30 16:25:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/undefined" for 127.0.0.1 at 2022-09-30 16:25:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:25:34 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (0.7ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (Duration: 14.6ms | Allocations: 8036)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.7ms | Allocations: 8238)
+
+
+Started GET "/undefined" for 127.0.0.1 at 2022-09-30 16:25:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/undefined"):
+  
+Started GET "/api/pokemon/1" for 127.0.0.1 at 2022-09-30 16:25:35 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"1"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 1.2ms | Allocations: 75)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 323)
+
+
+Started GET "/pokemon/undefined" for 127.0.0.1 at 2022-09-30 16:25:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/pokemon/undefined"):
+  
+Started GET "/api/pokemon/1" for 127.0.0.1 at 2022-09-30 16:25:37 -0400
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:25:37 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"1"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.3ms | Allocations: 19)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 216)
+
+
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (Duration: 13.7ms | Allocations: 8027)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 1.4ms | Allocations: 8205)
+
+
+Started GET "/pokemon/undefined" for 127.0.0.1 at 2022-09-30 16:25:37 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/pokemon/undefined"):
+  
+Started GET "/api/pokemon/3" for 127.0.0.1 at 2022-09-30 16:25:38 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"3"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 200)
+
+
+Started GET "/api/pokemon/3" for 127.0.0.1 at 2022-09-30 16:25:40 -0400
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:25:40 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mPokemon Load (2.8ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  Rendering api/pokemon/show.json.jbuilder
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.2ms | Allocations: 19)
+  Rendered api/pokemon/index.json.jbuilder (Duration: 13.6ms | Allocations: 8572)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 8030)
+
+
+Completed 200 OK in 17ms (Views: 13.6ms | ActiveRecord: 2.8ms | Allocations: 8826)
+
+
+Started GET "/pokemon/undefined" for 127.0.0.1 at 2022-09-30 16:25:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/pokemon/undefined"):
+  
+Started GET "/api/pokemon/1" for 127.0.0.1 at 2022-09-30 16:25:50 -0400
+Processing by Api::PokemonController#show as JSON
+  Parameters: {"id"=>"1"}
+  Rendering api/pokemon/show.json.jbuilder
+  Rendered api/pokemon/show.json.jbuilder (Duration: 0.1ms | Allocations: 19)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 201)
+
+
+Started GET "/" for 127.0.0.1 at 2022-09-30 16:26:01 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/cb299792458/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/cb299792458/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 283)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1068)
+
+
+Started GET "/api/pokemon" for 127.0.0.1 at 2022-09-30 16:26:24 -0400
+Processing by Api::PokemonController#index as JSON
+  Rendering api/pokemon/index.json.jbuilder
+  [1m[36mPokemon Load (0.6ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  ↳ app/views/api/pokemon/index.json.jbuilder:1
+  Rendered api/pokemon/index.json.jbuilder (Duration: 11.0ms | Allocations: 8222)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.6ms | Allocations: 8828)
+
+

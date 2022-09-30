@@ -1,14 +1,7 @@
 class Api::PokemonController < ApplicationController
     def index
-        render json: [
-            {
-              "id": 1,
-              "number": 1,
-              "name": "Bulbasaur",
-              "imageUrl": "/images/pokemon_snaps/1.svg",
-              "captured": true
-            },
-          ]
+      @pokemon = Pokemon.all
+      render :index #Images not found
     end
 
     def types
