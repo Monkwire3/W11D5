@@ -14,6 +14,8 @@
 #  updated_at :datetime         not null
 #
 class Pokemon < ApplicationRecord
+    attr_reader :TYPES
+
     validates :image_url, presence: true
     validates :captured, inclusion: [true, false]
     validates :name, length: { in: 3..255 }, uniqueness: { message: "The name %{value} is taken" }
