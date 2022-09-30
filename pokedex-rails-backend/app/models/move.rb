@@ -8,4 +8,13 @@
 #  updated_at :datetime         not null
 #
 class Move < ApplicationRecord
+    validates :name, length: {in: 3..255}
+
+    has_many :poke_moves,
+        foreign_key: :move_id,
+        class_name: :PokeMove
+
+    has_many :pokemon,
+        through: :poke_move,
+        source: :pokemon
 end

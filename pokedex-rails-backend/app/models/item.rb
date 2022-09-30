@@ -3,7 +3,7 @@
 # Table name: items
 #
 #  id         :bigint           not null, primary key
-#  pokemon_id :bigint
+#  pokemon_id :bigint           not null
 #  name       :string           not null
 #  price      :integer          not null
 #  happiness  :integer          not null
@@ -12,5 +12,13 @@
 #  updated_at :datetime         not null
 #
 class Item < ApplicationRecord
-    validates :
+    validates :happiness, :image_url, :pokemon_id, presence: true
+    validates :name, length: {in: 3..255}
+    validates :price, numericality: {greater_than: 0}
+
+    belongs_to :pokemon,
+        foreign_key: :pokemon_id,
+        class_name: :Pokemon,
+        dependent: :destroy
+
 end
